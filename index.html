@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/assets/logo3-C9B7KvAm.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>document.documentElement.classList.add('js')</script>
+    <title>Arjay Malaga | Portfolio</title>
+    <script type="module" crossorigin src="/assets/index-BGkf3JRJ.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DdxzfIm4.css">
+  </head>
+  <body className="dark">
+    <div id="root"></div>
+    <script src="https://unpkg.com/taos@1.0.5/dist/taos.js"></script>
+
+    <button
+      type="button"
+      data-twe-ripple-init
+      data-twe-ripple-color="light"
+      class="!fixed bottom-5 end-5 hidden rounded-full bg-red-600 p-3 text-xs font-medium uppercase leading-tight text-white shadow-md transition duration-150 ease-in-out hover:bg-red-700 hover:shadow-lg focus:bg-red-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-red-800 active:shadow-lg"
+      id="btn-back-to-top" style="background: #007BFF;">
+      <span class="[&>svg]:w-4">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="3"
+          stroke="currentColor">
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M4.5 10.5 12 3m0 0 7.5 7.5M12 3v18" />
+        </svg>
+      </span>
+    </button>
+
+    <script>
+      // JavaScript to handle the scroll-to-top functionality
+      window.addEventListener('scroll', function() {
+        const btn = document.getElementById('btn-back-to-top');
+        if (window.scrollY > 300) {
+          btn.classList.remove('hidden');
+        } else {
+          btn.classList.add('hidden');
+        }
+      });
+
+      document.getElementById('btn-back-to-top').addEventListener('click', function() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    </script>
+  </body>
+</html>
