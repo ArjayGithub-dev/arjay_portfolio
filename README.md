@@ -8,8 +8,8 @@ https://www.quora.com/Is-it-bad-to-copy-other-peoples-code
 
 # Dependencies
 
-Taos
-React
+1. React
+2. Taos
 
 
 # Getting Started
