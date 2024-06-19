@@ -1,8 +1,18 @@
-# React + Vite
+# Hey there! This is my professional portfolio built with React JS + Tailwind + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📢 PSA for those who want to fork or copy this repo and use it for their own site:
 
-Currently, two official plugins are available:
+Please be a decent person and give me proper credit by linking back to my website! Refer to this handy quora post if you're not sure. 
+https://www.quora.com/Is-it-bad-to-copy-other-peoples-code
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+# Dependencies
+
+Taos
+React
+
+
+# Getting Started
+
+1. npm install
+2. npm run dev
