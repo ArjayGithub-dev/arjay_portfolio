@@ -82,7 +82,7 @@
   margin-left: 10px; /* Adjust as needed */
 }
 
-/* ==================== Social Links ====================*/
+/* ==================== SOCIAL ICONS - START ====================*/
 
 .icon-wrapper {
   width: 40px;
@@ -94,6 +94,10 @@
   justify-content: center;
   margin-right: 15px;
 }
+
+/* ==================== SOCIAL ICONS - END====================*/
+
+
 
 
 /* ==================== TESTIMONIALS SLIDER ====================*/
@@ -112,7 +116,7 @@
   font-weight: bold;
 }
 
-/* ==================== MESSAGE ME / BTN ====================*/
+/* ==================== BUTTON - START ====================*/
 
 .btn {
   color: #007BFF;
@@ -124,11 +128,11 @@
   position: relative;
   transition: all 1s;
   overflow: hidden;
-  border-radius: 50px ;
+  border-radius: 5px ;
 }
 
 .btn:hover {
-  color: #007BFF;
+  color: #ffffff;
 }
 
 .btn::before {
@@ -261,3 +265,27 @@
  .cl-switch > input:checked:disabled + span::after {
   background-color: #007BFF;
  }
+
+ /* ==================== BUTTON - END ====================*/
+
+
+ /* ==================== HAND WAVE ICON - START ====================*/
+
+ @keyframes wave {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(14deg); }
+  20% { transform: rotate(-8deg); }
+  30% { transform: rotate(14deg); }
+  40% { transform: rotate(-4deg); }
+  50% { transform: rotate(10deg); }
+  60% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.wave {
+  display: inline-block;
+  animation: wave 1.5s infinite;
+  transform-origin: 70% 70%;
+}
+
+ /* ==================== HAND WAVE ICON - END ====================*/

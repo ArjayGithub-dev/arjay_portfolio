@@ -12,8 +12,11 @@ const Contact = () => (
         <p className="text-center font-inter text-gray text-[20px] mb-10 mt-10 dark:text-white"> {/* Centered text */}
           Want to start a project?
         </p>
-        <h1 className="text-inter font-bold text-[126px] text-black dark:text-blue">Let's Talk!</h1>
-        <a className="btn font-inter font-semibold text-[15px] mt-10" href="https://m.me/arjay.malaga22" target="_blank" rel="noopener noreferrer">CONTACT ME</a>
+        <h1 className="text-inter font-bold text-[40px] sm:text-[60px] md:text-[80px] lg:text-[110px] xl:text-[126px] text-black dark:text-blue">
+          Get in Touch
+        </h1>
+
+        <a className="btn font-inter font-semibold text-[15px] mt-10" href="mailto:arjaymalaga990@gmail.com" target="_blank" rel="noopener noreferrer">SAY HELLO</a>
       </div>
     </div>
   </section>

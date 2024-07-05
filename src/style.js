@@ -4,6 +4,7 @@ const styles = {
 
   heading2: "font-inter font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
   paragraph1: "font-inter font-extralight text-black  ss:text-[25px] text-[18px]",
+  paragraph2: "font-inter font-extralight text-black text-[18px]",
   sectionTitle: "font-inter font-bold text-blue text-[20px]",
   
   flexCenter: "flex justify-center items-center",

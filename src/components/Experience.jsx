@@ -1,5 +1,6 @@
 import styles from "../style";
 import { experiences } from "../constants";
+import { Developer } from "../assets";
 
 const Experience = () => (
   <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
@@ -22,6 +23,7 @@ const Experience = () => (
         ))}
       </div>
     </div>
+    <a className="btn font-inter font-semibold text-[15px] mt-10" href={Developer} target="_blank">View My Resume</a>
   </section>
 );
 
