@@ -3,7 +3,7 @@
 
 Please be a decent person and give me proper credit by linking back to my website! 
 
-Check this link below: 
+You might want to check this link below: 
 https://www.quora.com/Is-it-bad-to-copy-other-peoples-code
 
 
