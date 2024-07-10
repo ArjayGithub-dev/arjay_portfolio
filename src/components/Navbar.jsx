@@ -16,6 +16,10 @@ const Navbar = () => {
     };
 
     return (
+
+      
+
+
         <nav className=" w-full flex py-6 justify between items-center navbar">
             <h1 className="font-inter font-black text-black text-[40px] cursor-pointer dark:text-white">AM</h1>
             <div style={{ marginLeft: 'auto' }} className="cl-toggle-switch">

@@ -42,6 +42,20 @@ export const otherprojects = [
     link: "https://tasker-project-management.netlify.app/",
     tools: ["React JS", "Taildwind", "daisyUI"]
   },
+  {
+    id: "otherproject-2",
+    content: "Another free web design that I developed out of boredom, a Job Finder website! I am trying to explore things that will enhance my front-end development skills.",
+    name: "PostJob",
+    link: "https://postjob-jobfinder.netlify.app/",
+    tools: ["React JS", "Taildwind", "MambaUI"]
+  },
+  {
+    id: "otherproject-3",
+    content: "Another free web design that I developed out of boredom. I am trying to explore things that will enhance my front-end development skills.",
+    name: "FindTrend",
+    link: "https://findtrendsite.netlify.app/",
+    tools: ["React JS", "Taildwind", "Sira"]
+  },
   /*{
     id: "otherproject-1",
     content: "I decided to dive into React and Tailwind and stumbled upon a simple tutorial. What started as a learning exercise quickly evolved into this weekend project, this experience helped me learn a lot about React!",
@@ -50,14 +64,14 @@ export const otherprojects = [
     tools: ["React JS", "Tailwind"]
   },*/
   {
-    id: "otherproject-2",
+    id: "otherproject-4",
     content: "This is a blog website about our educational tour around Luzon, Philippines on June 2023. This website was part of my academic requirement.",
     name: "Educational Tour Blog",
     link: "https://precious-salmiakki-803f40.netlify.app/",
     tools: ["HTML", "CSS", "JavaScript"]
   },
   {
-    id: "otherproject-3",
+    id: "otherproject-5",
     content: "This was my first personal portfolio I created as part of my academic requirements. Some of the sections are inspired, but hey, I won as the Best Portfolio in my batch and I loved this so much!",
     name: "First Portfolio",
     link: "https://arjaymalaga.netlify.app/",
@@ -102,12 +116,12 @@ export const projects = [
     content: "A multivendor e-commerce platform that facilitates seamless seller management, and customer engagement. This platform ensures a smooth and efficient shopping experience for all users.",
     name: "Multivendor Ecommerce",
     role: "Fullstack Developer",
-    tools: ["PHP", "MySQL", "JavaScript", "HTML", "CSS", "Bootstrap"],
+    tools: ["PHP", "MySQL", "JavaScript", "HTML", "CSS", "Bootstrap", "Stripe API"],
     img: inprogress,
     link: "https://github.com/ArjayGithub-dev",
     lin2: "https://github.com/ArjayGithub-dev",
   },
-  {
+  /*{
     id: "project-4",
     content: "My professional portfolio is a comprehensive showcase of my skills and projects. It highlights my journey in my chosen field, featuring a range of work that demonstrates my expertise and dedication. ",
     name: "Professional Portfolio",
@@ -116,7 +130,7 @@ export const projects = [
     img: portfolio_mockup_b,
     link: "https://github.com/ArjayGithub-dev/arjay_portfolio",
     link2: "https://arjaygithub-dev.github.io/arjay_portfolio/",
-  },
+  },*/
 ];
 
 export const testimonials = [
@@ -161,10 +175,15 @@ export const skills = [
       /*{ name: "Angular" },
       { name: "Laravel" },*/
       { name: "Bootstrap" },
-      { name: "Next.js" },
-      { name: "React.js" },
-      { name: "jQuery" },
+      /*{ name: "Next.js" }, */
       { name: "Flask" },
+    ],
+  },
+  {
+    title: "Libraries",
+    links: [
+      { name: "React"},
+      { name: "jQuery" },
     ],
   },
   {
@@ -180,18 +199,8 @@ export const skills = [
   {
     title: "Design",
     links: [
-      { name: "Adobe XD "},
-      { name: "Figma "},
+      { name: "Figma" },
       { name: "Canva" },
-    ],
-  },
-  {
-    title: "Others",
-    links: [
-      { name: "Adobe Firefly" },
-      { name: "Capcut" },
-      /*{ name: "OpenAI" },
-      { name: "Gemini" },*/
     ],
   },
 ];
