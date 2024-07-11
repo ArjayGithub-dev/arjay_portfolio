@@ -10,6 +10,7 @@ const Hero = () => {
   return (
     <section id="home" className={`flex md:flex-row flex-col md:ml-20 md:mt-10 ml-0 mt-0 ${styles.paddingY} ${layout.sectionReverse}`}>
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
+
         {/* First div with "Hello people" */}
         <div className="ss:text-[18px] text-[16px] font-inter text-gray font-bold dark:text-white">
           Hey, There! <span className="text-2xl wave"> &#128075; </span>

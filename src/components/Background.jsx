@@ -1,6 +1,6 @@
 import styles from "../style";
 
-const OtherProjects = () => (
+const Background = () => (
   <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
     <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
       <div className="flex w-64 flex-col justify-start mr-10">
@@ -22,4 +22,4 @@ const OtherProjects = () => (
   </section>
 );
 
-export default OtherProjects;
+export default Background;
