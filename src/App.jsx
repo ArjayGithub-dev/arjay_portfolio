@@ -3,6 +3,7 @@ import styles from "./style";
 import { Navbar, Hero, Background, Skills, Experience, FeaturedProjects, OtherProjects, Testimonials, Contact, Footer } from "./components";
 import { animation } from "./style";
 
+{/* Animation Revel On Scroll - START */}
 const RevealOnScroll = ({ children }) => {
   const [isVisible, setIsVisible] = useState(false);
   const ref = useRef(null);
@@ -33,6 +34,8 @@ const RevealOnScroll = ({ children }) => {
       </div>
   );
 };
+
+{/* Animation Revel On Scroll - END */}
 
 function App() {
   const [theme, setTheme] = useState("light");

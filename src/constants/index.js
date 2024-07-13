@@ -89,7 +89,6 @@ export const projects = [
     role: "Backend Developer",
     img: project1,
     link: "https://github.com/JerichoSagdi0/wmsuphsi-main",
-    link2: "https://github.com/JerichoSagdi0/wmsuphsi-main",
   },
   {
     id: "project-2",
@@ -118,10 +117,10 @@ export const projects = [
     role: "Fullstack Developer",
     tools: ["PHP", "MySQL", "JavaScript", "HTML", "CSS", "Bootstrap", "Stripe API"],
     img: inprogress,
-    link: "https://github.com/ArjayGithub-dev",
-    lin2: "https://github.com/ArjayGithub-dev",
+    /*link2: "",
+    link: "https://github.com/ArjayGithub-dev",*/
   },
-  /*{
+  {
     id: "project-4",
     content: "My professional portfolio is a comprehensive showcase of my skills and projects. It highlights my journey in my chosen field, featuring a range of work that demonstrates my expertise and dedication. ",
     name: "Professional Portfolio",
@@ -130,7 +129,7 @@ export const projects = [
     img: portfolio_mockup_b,
     link: "https://github.com/ArjayGithub-dev/arjay_portfolio",
     link2: "https://arjaygithub-dev.github.io/arjay_portfolio/",
-  },*/
+  },
 ];
 
 export const testimonials = [

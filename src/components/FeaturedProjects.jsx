@@ -21,12 +21,16 @@ const FeaturedProjects = () => (
               />
             </div>
             <div className={`flex flex-col md:ml-5`}>
-              <h3 className="font-inter font-bold text-[20px] text-black mb-2 mt-10 ml-5 dark:text-white">
-                {project.name}
+
+            <h3 className="font-inter font-bold text-[20px] text-black mb-2 mt-10 ml-5 dark:text-white">
+              {project.name}
+              {project.link2 && (
                 <a href={project.link2} target="_blank" rel="noopener noreferrer" className="ml-2">
                   <img src={open_link} alt="open link" className="w-5 h-5 inline-block align-middle ml-5" />
                 </a>
-              </h3>
+              )}
+            </h3>
+
               <p className="font-inter font-extralight text-[20px] text-black mb-2 w-5/6 ml-5 dark:text-white">
                 {project.content}
               </p>
@@ -40,9 +44,11 @@ const FeaturedProjects = () => (
                   </span>
                 ))}
               </div>
-              <p className="font-inter font-bold text-[15px] text-blue mb-6 ml-5">
-                <a href={project.link} target="_blank" rel="noopener noreferrer">View Github Repository</a>
-              </p>
+              {project.link && (
+                <p className="font-inter font-bold text-[15px] text-blue mb-6 ml-5">
+                  <a href={project.link} target="_blank" rel="noopener noreferrer">View Github Repository</a>
+                </p>
+              )}
             </div>
           </div>
         ))}
