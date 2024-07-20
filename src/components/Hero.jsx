@@ -12,7 +12,7 @@ const Hero = () => {
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
 
         {/* First div with "Hello people" */}
-        <div className="ss:text-[18px] text-[16px] font-inter text-gray font-bold dark:text-white">
+        <div className="ss:text-[18px] text-[16px] font-inter text-gray font-bold dark:text-white mb-6">
           Hey, There! <span className="text-2xl wave"> &#128075; </span>
         </div>
 
@@ -24,8 +24,8 @@ const Hero = () => {
           >Arjay Malaga</span>, 
           a versatile web developer with a design flair. Let's build something amazing together.
         </div>
-        <div className="mt-5">
-          <p className="font-inter font-extralight text-black text-[20px] dark:text-white">Follow me</p>
+        <div className="mb-6">
+          {/* <p className="font-inter font-extralight text-black text-[20px] dark:text-white">Follow me</p> */}
           <Socials/>  
         </div>
       </div>

@@ -38,6 +38,7 @@ import Developer from "./Developer.pdf";
 import lalimpieza from "./lalimpieza.png";
 import inprogress from "./inprogress.png";
 import open_link from "./open_link.png";
+import malaga from "./malaga.jpg";
 
 export {
   icon_dribbble,
@@ -80,4 +81,5 @@ export {
   lalimpieza,
   inprogress,
   open_link,
+  malaga,
 };
