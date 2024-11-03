@@ -15,10 +15,10 @@ const Socials = () => {
         <img src={icon_linkedin} alt="LinkedIn" className="w-5 h-5 block dark:hidden" />
         <img src={icon_linkedin_w} alt="LinkedIn" className="w-5 h-5 hidden dark:block" />
       </a>
-     <a href="https://dribbble.com/arjayfulldev" target="_blank" rel="noopener noreferrer" className="icon-wrapper">
+     {/* <a href="https://dribbble.com/arjayfulldev" target="_blank" rel="noopener noreferrer" className="icon-wrapper">
         <img src={icon_dribbble} alt="Dribbble" className="w-5 h-5 block dark:hidden" />
         <img src={icon_dribbble_w} alt="Dribbble" className="w-5 h-5 hidden dark:block" />
-      </a>
+      </a> */}
        {/*<a href="https://www.upwork.com/freelancers/your-profile" target="_blank" rel="noopener noreferrer" className="icon-wrapper">
         <img src={icon_upwork} alt="Upwork" className="w-5 h-5 block dark:hidden" />
         <img src={icon_upwork_w} alt="Upwork" className="w-5 h-5 hidden dark:block" />
@@ -27,10 +27,10 @@ const Socials = () => {
         <img src={icon_fb} alt="Facebook" className="w-5 h-5 block dark:hidden" />
         <img src={icon_fb_w} alt="Facebook" className="w-5 h-5 hidden dark:block" />
       </a>
-      <a href="https://www.instagram.com/rjy_ar/" target="_blank" rel="noopener noreferrer" className="icon-wrapper">
+      {/* <a href="https://www.instagram.com/rjy_ar/" target="_blank" rel="noopener noreferrer" className="icon-wrapper">
         <img src={icon_ig} alt="Instagram" className="w-5 h-5 block dark:hidden" />
         <img src={icon_ig_w} alt="Instagram" className="w-5 h-5 hidden dark:block" />
-      </a>
+      </a> */}
     </div>
   );
 };

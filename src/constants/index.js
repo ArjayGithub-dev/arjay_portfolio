@@ -3,35 +3,48 @@ import { people01, people02, people03, project1, project2, project3, project4, p
 export const experiences = [
   {
     id: "experience-1",
-    company: "Freelance Services",
-    position: "Freelance Developer",
-    date: "Feb 2024 - Present",
+    company: "PJ Lhuillier Group of Companies",
+    position: "Business and Client Relations Associate",
+    description: "Navigating client needs and building lasting relationships in the vibrant world of business.",
+    date: "Oct 2024 - Present",
   },
   {
     id: "experience-2",
-    company: "Google Developer Student Clubs - CRIMSON",
-    position: "Assistant DevOps Technical Officer",
-    date: "Aug 2023 - May 2024",
+    company: "Fiver",
+    position: "Freelance Web Developer",
+    description: "Crafting bespoke websites that blend functionality with creativity for diverse clients across the globe.",
+    date: "Aug 2023 - Present",
   },
   {
     id: "experience-3",
-    company: "Venom Publication",
-    position: "Layout Artist",
+    company: "Google Developer Student Clubs - CRIMSON",
+    position: "Assistant DevOps Technical Officer",
+    description: "Supported innovative tech projects and streamlining operations to foster a collaborative google developer community.",
     date: "Aug 2023 - May 2024",
   },
   {
     id: "experience-4",
-    company: "WMSU Youth Peace Mediators - UNESCO Club",
-    position: "Multimedia Committee, Head",
-    date: "July 2023 - May 2024",
+    company: "Venom Publication",
+    position: "Layout Artist",
+    description: "Transformed ideas into visually captivating layouts, ensuring each publication tells a compelling story.",
+    date: "Aug 2023 - May 2024",
   },
   {
     id: "experience-5",
+    company: "WMSU Youth Peace Mediators - UNESCO Club",
+    position: "Multimedia Committee, Head",
+    description: "Lead a creative team to promote peace through multimedia campaigns, inspiring youth engagement.",
+    date: "July 2023 - May 2024",
+  },
+  {
+    id: "experience-6",
     company: "Zamboanga City Water District",
     position: "HR Assistant, Intern",
+    description: "Assisted Human Resource Operations.",
     date: "May 2018",
   },
 ];
+
 
 
 export const otherprojects = [
@@ -115,21 +128,21 @@ export const projects = [
     content: "A multivendor e-commerce platform that facilitates seamless seller management, and customer engagement. This platform ensures a smooth and efficient shopping experience for all users.",
     name: "Multivendor Ecommerce",
     role: "Fullstack Developer",
-    tools: ["PHP", "MySQL", "JavaScript", "HTML", "CSS", "Bootstrap", "Stripe API"],
+    tools: ["PHP", "MySQL", "JavaScript", "HTML", "CSS", "Bootstrap", "Stripe"],
     img: inprogress,
     /*link2: "",
     link: "https://github.com/ArjayGithub-dev",*/
   },
-  {
-    id: "project-4",
-    content: "My professional portfolio is a comprehensive showcase of my skills and projects. It highlights my journey in my chosen field, featuring a range of work that demonstrates my expertise and dedication. ",
-    name: "Professional Portfolio",
-    role: "Front-End Developer, UI/UX Designer",
-    tools: ["React JS", "Tailwind"],
-    img: portfolio_mockup_b,
-    link: "https://github.com/ArjayGithub-dev/arjay_portfolio",
-    link2: "https://arjaygithub-dev.github.io/arjay_portfolio/",
-  },
+  // {
+  //   id: "project-4",
+  //   content: "My professional portfolio is a comprehensive showcase of my skills and projects. It highlights my journey in my chosen field, featuring a range of work that demonstrates my expertise and dedication. ",
+  //   name: "Professional Portfolio",
+  //   role: "Front-End Developer, UI/UX Designer",
+  //   tools: ["React JS", "Tailwind"],
+  //   img: portfolio_mockup_b,
+  //   link: "https://github.com/ArjayGithub-dev/arjay_portfolio",
+  //   link2: "https://arjaygithub-dev.github.io/arjay_portfolio/",
+  // },
 ];
 
 export const testimonials = [
